@@ -1,10 +1,8 @@
-class computer:
-    def feature(self):
-        print("i5,8GB,512 SSD")
-    
-com1 = computer()
-com2 = computer()
+age = int(input("Enter your age : "))
 
-
-# computer.feature(com1)
-com2.feature()
+if 1 < age < 18:
+    print("You can't drive")
+elif 18 < age < 100:
+    print("You can drive")
+else:
+    print("Your age is invalid")
