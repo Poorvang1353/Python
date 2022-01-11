@@ -1,5 +1,5 @@
-a = int(input("please add number of line you want to print: "))
-b = bool(int(input("please add 0 for False")))
+a = int(input("please enter number of line you want to print: "))
+b = bool(int(input("please enter 0 for False")))
 
 
 def star(a, b):
