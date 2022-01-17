@@ -1,5 +1,5 @@
 # Health Management System
-client_list = {1:"Harry", 2:"Rohan", 3:"Hammad"}
+client_list = {1:"Poorvang", 2:"Ronak", 3:"Deep"}
 log_list = {1:"Exercise", 2:"Diet"}
 
 def getdate():
