@@ -1,4 +1,4 @@
-# from re import I
+
 
 
 i = int(input("Enter the number: "))
