@@ -33,4 +33,4 @@ print("Duplicates Removed list: ",duplicate(dupli_list))
 # lst = [1,2,3,4,3,2,1]
 # print (lst)
 # print ("Remove repeted numbers using loop: ",using_loop(lst))
-# print ("Remove repeted numbers using set: ",using_set(lst))
+# print ("Remove repeted numbers using set:",using_set(lst))
