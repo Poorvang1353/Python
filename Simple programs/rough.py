@@ -1,14 +1,15 @@
-class circle():
-    def __init__(self,r):
-        self.radius = r
+from os import dup
 
-    def area(self):
-        return self.radius**2*3.14
+    
+def duplicate(duplilist):
+    mainlist = []
+    for i in duplilist:
+        if i not in mainlist:
+            mainlist.append(i)
+    return mainlist
 
-    def perimeter(self):
-        return 2*3.14*self.radius
+lst = [1,3,2,4,2,3,5,3,34,3,4,1,5,6]
+print("Orignal list :",lst)
 
-
-newCircle = circle(8)
-print(newCircle.area)
-print(newCircle.perimeter) 
+duplilist = lst
+print("duplicate removed list :",duplicate(duplilist))
