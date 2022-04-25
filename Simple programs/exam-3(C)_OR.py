@@ -1,12 +1,32 @@
-list1= [9,8,7,6,5,4,3,]
-print('Original list:', list1)
-list2=[]
-length=len(list1)
+# # 1st
+# lst = [9,8,7,6,5,4,3]
+# lst2 = [10] + lst
+# print(lst2)
 
 
-while length > 0:
-    list2.append(list1[length-1])
-    length = length - 1
-print('Reversed list:', list2)
+# # 2nd
+# lst = [9,8,7,6,5,4,3]
+# lst2 = lst + [2]
+# print(lst2)
+
+
+# # 3rd 
+# def remove(lst,pos):
+#     newList = []
+#     for i in range(len(lst)):
+#         if i != pos:
+#             newList.append(lst[i])
+#     print(newList)
+# lst = [9,8,7,6,5,4,3]
+# pos = 4
+# remove(lst,pos)
+
+
+# # 4th 
+# def reverse(lst):
+#     newList = lst[::-1]
+#     return newList
+# lst = [9,8,7,6,5,4,3]
+# print(reverse(lst))
 
 
